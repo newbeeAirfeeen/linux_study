@@ -20,7 +20,7 @@
  *                SOCK_SEQPACKET
  * @param protocol 通常是0, 默认协议
  * 
- * 成功返回0, 出错返回-1。
+ * 成功返回文件描述符, 出错返回-1。
 **/
 int socket(int domain, int type, int protocol);
 
